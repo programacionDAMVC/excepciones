@@ -31,9 +31,9 @@ public class UtilidadesPersonas {
 	}
 		
 	public static void main(String[] args) {
-		String dni = "1a111111H";
-		System.out.println(validarDNI(dni));
-		LocalDate localDate = LocalDate.of(2018, 2, 30);
+		//String dni = "1a111111H";
+		//System.out.println(validarDNI(dni));
+		LocalDate localDate = LocalDate.of(2017, 2, 29);
 		System.out.println(validarFecha(localDate));
 	}
 	

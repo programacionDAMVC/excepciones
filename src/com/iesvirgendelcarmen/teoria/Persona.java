@@ -12,7 +12,8 @@ public class Persona {
 
 	//constructor
 	public Persona(String nombre, String apellidos,
-			LocalDate fechaNacimiento, String dni) throws DNIException  {
+			LocalDate fechaNacimiento, String dni) 
+					throws DNIException  {
 		if (UtilidadesPersonas.validarDNI(dni)) {
 			this.nombre = nombre;
 			this.apellidos = apellidos;
