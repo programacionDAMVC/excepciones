@@ -34,8 +34,8 @@ public class BinaryNumber {
 		return value.matches("[01]+");
 	}
 
-	public static void main(String[] args) {
+	/*public static void main(String[] args) {
 		System.out.println(checkBinary(" 11   ".trim()));
-	}
+	}*/
 	
 }
